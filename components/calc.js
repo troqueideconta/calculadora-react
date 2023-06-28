@@ -46,25 +46,25 @@ export default function Calculadora() {
         <input className="w-full border border-gray-300 p-2 rounded-lg text-lg tracking-tight " type="text" value={expression} readOnly />
       </div>
       <div className="grid grid-cols-4 gap-2">
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={handleClear}>C</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={handleDelete}>⇽</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('%')}>%</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('÷')}>÷</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('7')}>7</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('8')}>8</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('9')}>9</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('ˣ')}>X</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('4')}>4</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('5')}>5</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('6')}>6</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('-')}>-</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('1')}>1</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('2')}>2</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('3')}>3</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('+')}>+</button>
-        <button className="bg-numeros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('0')}>0</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg" onClick={() => handleClick('.')}>,</button>
-        <button className="bg-outros hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg col-span-2" onClick={handleCalculate}>=</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={handleClear}>C</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={handleDelete}>⇽</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('%')}>%</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('÷')}>÷</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('7')}>7</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('8')}>8</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('9')}>9</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('ˣ')}>X</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('4')}>4</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('5')}>5</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('6')}>6</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('-')}>-</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('1')}>1</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('2')}>2</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('3')}>3</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg  " onClick={() => handleClick('+')}>+</button>
+        <button className="bg-numeros hover:bg-[#39404c] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('0')}>0</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg " onClick={() => handleClick('.')}>,</button>
+        <button className="bg-outros hover:bg-[#cf7500c0] text-white font-bold py-2 px-4 rounded-lg col-span-2 " onClick={handleCalculate}>=</button>
       </div>
     </div>
   );
